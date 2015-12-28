@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="anuj_garg.mancon.ALLContacts">
+    <item android:id="@+id/create"
+        android:title="Create new contact"
+        android:icon="@drawable/create"
+        android:showAsAction="never"/>
+
+
+    <item android:id="@+id/log"
+        android:title="log"
+        android:icon="@drawable/log"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/selected"
+        android:title="selected"
+        android:icon="@drawable/selected"
+        android:showAsAction="always"/>
+
+    <item android:id="@+id/all"
+        android:title="all"
+        android:icon="@drawable/all"
+        android:showAsAction="always"/>
+
+
+
+
+    <item android:id="@+id/setting"
+        android:title="Settings"
+        android:icon="@drawable/setting"
+        android:showAsAction="never"/>
+
+    <item android:id="@+id/refresh"
+        android:title="Refresh"
+        android:showAsAction="never"/>
+
+</menu>
